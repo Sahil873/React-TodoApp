@@ -1,0 +1,9 @@
+.myApp {
+  font-family: "Protest Riot", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #814af4;
+}

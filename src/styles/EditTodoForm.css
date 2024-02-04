@@ -1,0 +1,27 @@
+.EditTodoform {
+  /* width: 90%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.EditTodoform input {
+  flex: 1;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #814af4;
+  outline: none;
+}
+
+.EditTodoform button {
+  background-color: #814af4;
+  color: white;
+  border: none;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 2px solid #814af4;
+  cursor: pointer;
+  /* flex: 1; */
+}
