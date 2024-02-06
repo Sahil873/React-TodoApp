@@ -4,8 +4,6 @@ import { v4 as uuidv4 } from "uuid";
 import Todo from "./Todo";
 import EditTodoForm from "./editTodoForm";
 import "../styles/TodoWrapper.css";
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 
 export default function TodoWrapper() {
   const [todos, setTodos] = useState([]);
