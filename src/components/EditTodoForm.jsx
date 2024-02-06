@@ -8,7 +8,11 @@ export default function EditTodoForm({ editTask, todo }) {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    editTask(value, todo.id);
+    if (!value) {
+      alert("Enter a valid task");
+    } else {
+      editTask(value, todo.id);
+    }
   };
   let handleChange = (event) => {
     setValue(event.target.value);

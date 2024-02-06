@@ -1,13 +1,13 @@
 .TodoWrapper {
-  border: 1px solid black;
   max-height: 50%;
   text-align: center;
   background-color: #1c173f;
   border-radius: 0.5rem;
   padding: 1rem 2rem;
   overflow-y: auto;
-  position: relative;
+  /* position: relative; */
   scrollbar-gutter: stable;
+  margin: 1rem;
 }
 
 .TodoWrapper h2 {
@@ -34,7 +34,7 @@
 
 @media (min-width: 768px) and (max-width: 1180px) {
   .TodoWrapper {
-    width: 60%;
+    min-width: 60%;
     max-height: 70%;
   }
 }

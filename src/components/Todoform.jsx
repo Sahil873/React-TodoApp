@@ -29,7 +29,6 @@ export default function TodoForm({ addTodo }) {
           console.log(e);
           handleChange(event);
         }}
-        // required
       />
       <button type="submit" className="todo-btn">
         Add Task
